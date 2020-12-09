@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "KSU Student",
+  "description": "This extension gives quick links to frequently visited sites for students at Kennesaw State University.",
+  "version": "0.1",
+
+  "browser_action": {
+   "default_icon": "KSULogo.png",
+   "default_popup": "popup.html"
+  },
+
+  "permissions": [
+   "activeTab"
+   ], 
+
+   "icons": { 
+     "16": "icons/icon16.png",
+     "48": "icons/icon48.png",
+     "128": "icons/icon128.png" 
+  }
+}

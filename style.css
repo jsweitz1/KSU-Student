@@ -1,0 +1,47 @@
+button {
+    color:black;
+    font-weight:700;
+    background-color:#ffc629;
+    border:1px solid black;
+    border-radius:5px;
+    margin:2px;
+    padding:4px 5px 3px 5px;
+}
+button:hover {
+    filter: brightness(104%);
+    border:1px solid white;
+}
+
+button:active {
+    filter: brightness(108%)
+}
+
+.container {
+    background-color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.container * {
+    text-align:center;
+    font-family: arial, sans-serif;
+}
+
+
+.header {
+    display:flex;
+    height:50px;
+    width:150px;
+    background-image: url("KSUHeader.png");
+    background-color:#2D2926;
+    background-size:cover;
+}
+
+#name {
+    margin:none;
+    padding:none;
+    color:rgb(178, 180, 178, 0.5);
+    font-size:0.6em;
+}
